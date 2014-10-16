@@ -26,7 +26,7 @@ for line in open(sys.argv[1]):
         saint = get_the_first_part(m,parts[0])
         i = 0
         for p in parts:
-            print_days(saint, p, i)
+            print_days(saint, p.strip(), i)
             i += 1
     else:
         print "SKIPPED LINE: %s" % line.strip()

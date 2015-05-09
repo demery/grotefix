@@ -49,8 +49,9 @@ subs = []
 counts = {}
 
 for feast in feast_list:
-    counts.setdefault(feast, 0)
-    r = re.compile(re.escape(feast))
+    counts.setdefault(feast, 1)
+    r = re.compile(r'\b%s\b' % re.escape(feast))
+    print r.pattern
     match_feasts = filter(lambda x:r.search(x), all_lines)
     for m in match_feasts:
         counts[feast] += len(r.findall(m))

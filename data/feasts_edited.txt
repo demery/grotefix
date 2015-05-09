@@ -1,0 +1,391 @@
+     3	(Commemoratio)
+
+     1	(Dedicatio ecclesie)
+     1	(Depositio, E., Translatio, P.)
+     1	(Dion. Areop.) Translatio Ratisbonam
+
+s. 4/December; Dionysii)
+
+Preferred:
+Dionysii (Translatio Ratisbonam (Dion. Aerop.)) 
+
+
+     1	(Euletherii)
+
+s. Eleutherii et Ancie matris
+
+Eul.. is an alternate spelling; we can ignore
+
+     3	(Obitus)
+
+s. Pauli ep. Narbonnen. cf.
+
+meaning he’s celebrated in these places as Pauli, but actually they’re celebrating his obit
+
+also for Severi ep. (Ravennatis) cf. and Walpurgis v. (canonisatio)
+
+     2	(Transitus)
+
+as above with (Obitus)
+
+     7	(Transl.)
+    27	(Translatio)
+
+Feast not listed as such, but actually is Translatio
+
+s. Benedicti (de Nursia) abb. (Casinensis) cf. || … ||  Inlatio (Translatio) December 4: Bourges (Transl.). - Winchester. - Benedictiner E.
+
+ideally:
+4/Dec - Benedicti (de Nursia) abb. (Casinensis) cf. (Inlatio; Translatio)
+
+
+     1	(Translatio oder Depositio)
+
+Illidii (Allyrii) ep. Arvernorum Juni 5: [Clermont] A.S., (obitus) D. || (Translatio oder Depositio) Juli 7: [Clermont] D.
+
+ideally:
+7/Jul - llidii (Allyrii) ep. (Translatio; Depositio)
+
+     3	(Translatio?)
+
+Privati ep. Mimaten. m. August 21: Bremen, Lüttich, Metz, Toul, Utrecht, Verdun. - Beauvais, Bourges, Langres,Mende. - Sevilla. || (Translatio?)Juli 13: Mende.
+
+Sevoldi cf. September 17: (Amiens, Abbeville) D. (A.S.: September 16). || (Translatio?) November 2: [Abbeville] D.
+Sexburge abb. Elien. v. Juli 6: Winchester.
+
+Gervasii et Prothasii m. Juni 19: Ueberall (nur Apt Juni 16). || * am 19. Juni in Mans, Rouen, Senlis, Soissons. || Vigilia Juni 18: Mailand (Ambros.). || Octava Juni 26: Senlis, Soissons. || (Translatio?) December 13: *Mans. || Inventio März 25: Soissons.
+
+ideally:
+13/Jul Privati …. (Translatio?)
+2/Nov Sevoldi … (Translatio?)
+13/Dec Gervasii … (Translatio?)
+
+
+     1	(Vedasti ep. cf.) translatio
+
+Vedasti et Amandi ep.*) cf. … || (Vedasti ep. cf.) translatio Juli 15: Amiens, [Arras, S. Vaast] Mon. Germ. XV, 402, Beauvais, Cambrai.
+Vedasti s. Amandi (October 1).
+
+means only Vedasti is translated, not Amandi
+
+ideally:
+25/Jul - Vedasti ep. cf. (translate) [leaving off Amandi]
+
+     3	(ob Translatio?)
+
+Aniceti pp. m. Apr. 17: Trient, Utrecht. - Beauvais, Nevers, Paris. - Mailand (Ambros.), [Rom] A. S. - Compostella. - Augustiner-Eremiten, Benedictiner, Domini ultramontani, Franciscaner. || Apr. 16: Bremen. || September 12: (ob Translatio ?) Mailand (Ambros.).
+Aniceti et Fotini m. September 2: Mans (A. S.: August 12).
+
+Jodoci (Judoci) pb. cf. December 13: Bamberg, Basel, Brandenburg, Brixen, Chur, Freising, Halle, Hamburg, Konstanz, Mainz, Passau, Salzburg (depositio), Speyer, Trient, Trier, Worms, Würzburg. - London (Westminster), Winchester. || December 12: Odensee. || October 12: Havelberg || Translatio (nach Winchester) Januar 9: Winchester. || Translatio (inventio) Juli 25: Brixen (ohne Trl.), Salzburg (inventio). - Juli 24: Bamberg. - Juli 26: Utrecht (ohne Trl.), Amiens (m., ohne Trl.). || Translatio October 16: Salzburg. || (ob Translatio?) Juni 11: Basel. - Juni 10: Lübeck.
+
+Lubentii pb. cf. Treveren. October 13: Halle, Mainz, Trier. - Johanniter. || Februar 6 (ob Translatio?): Trier (S. Maximin). || S. Lupentii (October 22).
+
+
+use:
+12/Sep - Aniceti … (Translatio?)
+likewise for the Jodoci and Lubentii
+
+    22	8a
+
+Typically an abbreviation and can be ignored
+However, NB:
+
+Stanislai ep. Cracovien. m. (+ 1079, can. 1253) Mai 8: *Breslau, Ermland, *Gnesen (mit 8a), *Krakau (canonisatio mit 8a), Lebus, Olmütz, Prag. - Agram, *Fünfkirchen, *Gran. - Deutsch-Orden, Kreuzherren, Pauliner. Seit Clemens VIII. auf Mai 7 verschoben. || Translatio (1254) September 27: *Breslau, Gnesen, *Krakau, Lebus. - Kreuzherren. || (Transl.) October 6: Gran. || Occisio Apr. 11: Krakau.
+
+Implicit here is that that Stanislav has 2 octaves on 15 Mai: *Gnesen (mit 8a), *Krakau (canonisatio mit 8a)
+
+For the following two note the embedded days for Ocatve:
+
+- Stephani protom. December 26: Ueberall als *. || … || Translatio November 18: Bourges (mit 8a am 24!).
+- Stephani regis Ungarie cf. (+ 1038) August 20 (Elevatio anstatt des eigentlichen Todestages August 15): Bamberg, Breslau, Gnesen, Krakau, Prag. - *Agram, *Fünfkirchen, *Gran (alle drei mit memoria de s. Steph. August 15 und 8a am 27. August). - *Domini ultramontani, *Pauliner (mit 8a August 27). 
+
+NB, embedded 8a on 21 Jul:
+- Svithuni ep. Wintonien. cf. (depositio) Juli 2: Exeter, London (Westminster), Salisbury, Winchester (dep.), York. || Translatio Juli 15: Durham, Exeter, London (Westminster), *Salisbury, Winchester (mit 8a: Juli 21). || Translatio Juli 16: Trondhjem. || Ordinatio October 30: Winchester.
+
+look for parenthetical dates:
+
+- Thome de Aquino cf. (+ 1274, can. 1333) März 7: In zahlreichen Diöcesan- und Ordenskalendern. || * und mit 8a (am 14. März): Dominicane
+r. || März 8: Sevilla. || …
+- Ursini aep. Bituricen. December 29: Bourges (mit 8a Januar 5). || …
+
+     7	Adventus
+
+Cassiani ep. cf. Eduen. August 5: Amiens, Autun, Cambrai, Noyon, Tournai. - Exeter (Leofric). || Adventus Juli 16: Arras.
+
+Have:
+
+16/Jul - Cassiani ep. cf. Eduen. (Adventus)
+
+     1	Adventus Nazarii
+
+Basilidis, Cyrini, Naboris (et Nazarii) m. Juni 12: überall, in Frankreich mit einigen Ausnahmen. || - nur Mainz (wegen Lorsch). || Adventus Nazarii Juli 11: [Mainz, Lorsch] E. || S. Nazarii et Celsi.
+
+11/Jul - Nazarii (Adventus)
+
+     1	Adventus de eremo Lugdunum
+
+Justi (Justini) ep. Lugdunen, cf. September 2: Breslau …|| Adventus de eremo Lugdunum, August 4: Lyon. || …
+
+Have:
+4/Aug - Justi ep. Lugdunen, cf. (Adventus de eremo Lugdunum)
+
+#     1	Adventus digiti
+
+Catharine v. m. November 25: Überall, und zwar *. || … || Adventus digiti September 14: Magdeburg. || …
+
+14/Sep - Catharine v. m. (Adventus digiti)
+
+#     1	Adventus reliquiarum
+
+Alexandri m. August 26: *Halle, Lausanne, Magdeburg, Sitten. - [Bergamo, Patron), [Brescia, ein anderer als der Bergomaske] A. S., Mailand [Ambros.). || Adventus reliquiarum December 17: Magdeburg
+
+Have: 
+
+17/Dec - Alexandri m. (Adventus reliquiarum)
+
+#     1	Albuini translatio
+
+Ingenuini et Albuini ep. Sabionen. Februar 5: *Brixen, Eichstädt, Freising, Trient. || Albuini translatio Mai 13: Brixen.
+
+Have:
+31/May - Albuini ep. Sabionen. (translatio) [leaving off “Ingenuini et “]
+
+     2	Allatio
+
+Standard
+
+     1	Allatio secunda
+
+Reliquiarum allatio prima Januar 2: *Prag. || Allatio secunda Januar 8: *Prag.
+
+Two entries:
+2/Jan - Reliquiarum allatio prima
+8/Jan - Reliquiarum allatio secunda
+
+     1	Ante portam Latinam (in dolio, in fervente oleo)
+
+Johannis ap. ev. December 27: Ueberall als * (assumptio vgl. I. 13). || … || Ante portam Latinam (in dolio, in fervente oleo) Mai 6: Ueberall, in zahlreichen Kalendern als *. || …
+
+6/Mai - Johannis ap. ev. (Ante portam Latinam; in dolio; in fervente oleo)
+
+     1	Apparitio (revelatio, inventio, victoria)
+     1	Baptismus
+     1	Beide Genesii
+     2	Bigorren.
+     1	Brachii translatio
+     1	Canon.
+     6	Canonisatio
+     1	Cantiani, Grisogoni et Prothi corporum inventio
+     2	Capitis adventus
+     2	Capitis exceptio in Cluniaco
+     2	Capitis inventio
+     3	Capitis translatio
+     4	Cleti pp. m.
+     1	Cleti pp. m. allein
+     1	Comm. sccunda
+     1	Comm. ultima
+    46	Commemoratio
+     1	Commemoratio annunciationis
+     1	Commemoratio annunciationis que dicitur expectatio partus (expectatio Marie., comm. de la O.; annunciatio Marie de la O.)
+     1	Commemoratio prima
+     1	Conceptio (Sanctificatio)
+     3	Consecratio
+     4	Conversio
+     1	Corporis elevatio
+     3	Corporis inventio
+     1	Corporis receptio
+     1	Daneben E. II. ep. Med.
+     2	Daneben:
+     1	Daneben: Leguntii et Frominii ep. Meten.
+     1	De miraculis ardentibus
+     2	Decollatio
+     7	Dedicatio
+     1	Dedicatio chori Sisinnii in valle Anagnie (Val di Non)
+     1	Dedicatio eccl. Genesii Arelaten.
+     5	Dedicatio ecclesie
+     1	Dedicatio s. Michaelis in monte Tumba
+     1	Depos.
+    16	Depositio
+     2	Dormitio
+    12	Elevatio
+     1	Exaltatio
+     2	Exceptio
+     1	Exceptio capitis in Cluniaco
+     1	Exceptio reliquiarum
+     1	Faciei receptio
+     1	Genesii m. (Arelaten.) neben dem andern
+     2	Genesii m. (Rome)
+     1	Gorgonii, Petri et Dorothei m.
+     1	Ingressio
+     3	Inhumatio
+     1	Inlatio (Translatio)
+    12	Inventio
+     1	Inventio (Translatio)
+     1	Inventio (reliquiarum) Stephani protom. (Nicomedis, Gamaliel et Abibon)
+     1	Inventio Fusciani et soc.
+     1	Inventio clavorum
+     4	Inventio corporis
+
+Catharine v. m. November 25: Überall, und zwar *. || … || Inventio corporis März 13: [Frankreich] P.
+
+Have:
+31/Mar - Catherine … (Inventio corporis)
+
+     1	Inventio corporis Dion. et soc.
+     1	Inventio corporis Ia.
+     1	Inventio corporis, apparitio
+     1	Inventio dextre
+     1	Marcellini et Cleti pp. m.
+
+Marcellini pp. m. Apr. 26: Bremen, Erfurt. || Februar 19: Mailand (Ambros.). || Marcellini et Cleti pp. m. Apr. 26: Augsburg, Basel, Mainz, Trient. - Toledo (Mozarab.). - Augustiner-Eremiten, Benedictiner, Franciscaner.
+
+s/b two dropdowns on that date; one for M. pp. m. and one for M & C. pp. m.
+
+     1	Marcellini pp. m. allein
+
+Cleti et Marcellini pp. m. Apr. 26: Augsburg, Basel, Mainz, Trient. - Toledo (Mozarab.). - Augustiner-Eremiten, Benedictiner. || Cleti pp. m. allein Apr. 26: Ermland, Freising, Halberstadt, Hamburg, Konstanz, Lausanne, Merseburg, Salzburg, Utrecht. - Amiens, Beauvais, Cambrai, Nevers, Paris, Soissons, Tournai. - Compostella, Sevilla, Tarassona. - Agram. - Camaldulenser, Carmeliter, Domini ultramontani, Franciscaner, Prämonstratenser. || Cleti pp. m. Mai 7: Mans. - Turin. || Mai 27: Brandenburg. || Juli 12: Lüttich. || October 12: Halle, Trier. || November 28: Agram (cf.).|| Marcellini pp. m. allein Apr. 26: Bremen, Erfurt. || Statt Cleti Anacleti genannt zu April 26: Chur, Kopenhagen. || S. Anacleti pp. m.
+
+
+     1	Matthie, Rustici, Venantii translatio Goslariam
+     3	Memoria
+     3	Nach A.S.
+     1	Natalicium
+    55	Obitus
+     1	Obitus Laurentie
+     1	Obitus Palatiate
+     1	Obitus, transitus (E.)
+     1	Occisio
+   149	Octava
+     1	Octava (Agnetis secundo)
+     1	Octava (translationis)
+     1	Octava anticipirt
+     1	Octava decollationis
+     1	Octava inv. St.
+     1	Octava inventionis
+     1	Octava ordinationis
+     1	Octava trans-lationis
+     7	Octava translationis
+     1	Octava |181|
+     1	Ordin. El. et Audoeni
+    19	Ordinatio
+     1	Ordinatio, translatio
+     1	Ossium recollectio
+     1	Ostensio reliquiarum
+
+#     5	Passio
+
+Dionysii, Rustici et Eleutherii m. (Dionysii Areopagite; ep. Parisien.) October 9: überall; * in einzelnen deutschen und scand., den meisten (namentlich nördlichen) französischen Diöcesen. Von Orden haben ihn: || …|| Passio November 20: Sitten. || …
+
+Have:
+DATE - PN, attrs (Passio)
+
+#    20	passio
+
+Justi m. October 18: Chur. - Trondhjem. - Amiens, [Auxerre] A.S., [Beauvais] A.S., Rouen. - Aberdon, Exeter, Salisbury, Winchester, York. - Cluniacenser. || October 20: Senlis. || A.S. führen auch Justini novennis pueri m. passio (in territorio Parisiensi) zum 1. August an. || Vgl. Justi, Flaviani et soc. m. und Justi et Arthemii (October 18).
+
+1/Aug - Justi m. (Justini novennis pueri m.) (passio) [in other words: formerly known as “Justini novennis pueri m.”]
+
+     1	patris s. Bernardi
+
+     1	Passio (Natalis)
+
+Felicis et Fortunati m. August 14: Aquileja. Trient.- Benedictiner (Casinenser). || Passio (Natalis) Mai 14: Mailand (Ambros.). || Passio Mai 15: Trient. (A.S.: Juni 11). 
+
+Natalis - death; i.e., rebirth into heavenly life
+
+Have:
+- 14/Mai Felicis et Fortunati m. (Passio, Natalis) 
+
+     1	Percussio cordis
+     1	Quadragesimus (assumptio corporalis; ass. Commemoratio)
+     1	Receptio capitis
+     5	Receptio reliquiarum
+     1	Receptio reliquiarum Marie
+     1	Reconditio
+     1	Regis tertii obitus
+     1	Relatio corporis
+     1	Reliquiarum Fabiani et Cecilie adventus
+    17	Reliquiarum adventus
+     1	Reliquiarum adventus (Fab. et Cecilie)
+     1	Reliquiarum inventio
+     1	Reliquiarum presentatio
+     1	Reliquiarum receptio in Cluniaco
+     3	Reliquiarum translatio
+     1	Renovatio
+     1	Renunciatio seculi
+     1	Repositio reliquiarum Eul. Pont. et Anast.
+     3	Revelatio
+     1	Rufi et Agatimbri ep. Meten.
+     2	Saturnini et Sisinnii m.
+     3	Septima
+     1	Septima inventionis
+     1	Silvanectensium
+     3	Sixti pp. m.
+    19	Sonst
+     5	Sonst:
+     1	Sophie, Fidei, Spei et Caritatis m.
+     1	Statt Cleti Anacleti genannt zu
+     2	Stigmatum impressio
+     1	Thebeorum Commemoratio (elevatio)
+     1	Thebeorum adventus
+     3	Transitus
+    20	Transl.
+     1	Transl. IIa
+   353	Translatio
+     1	Translatio (Commemoratio)
+     1	Translatio (Elevatio)
+     1	Translatio (Richenoviam)
+     1	Translatio (aber selten als solche bezeichnet)
+     1	Translatio (estivalis, bullientis)
+     1	Translatio (inventio)
+     1	Translatio (meist ohne so bezeichnet zu sein)
+     1	Translatio (nicht immer so bezeichnet)
+     1	Translatio (prima)
+     1	Translatio 1. Februar
+     1	Translatio Alexandri pp. et Justini pb.
+     1	Translatio Arnulfi ep. Meten.
+     1	Translatio Bergas s. Winoci
+     1	Translatio Cassii, Florentii et Malusii m.
+     1	Translatio Euletherii m., Pontiani m. et Anastasii cf.
+     1	Translatio Faustini et Beatricis
+     1	Translatio Firmini, Possessoris et Pulchronii ep.
+     1	Translatio Firmini, Pulchronii et Possessoris ep.
+     1	Translatio Gentiani Corbejam
+     3	Translatio Ia
+     2	Translatio Matthie, Rustici, Venantii
+     1	Translatio Mauri, Salvini et Aratoris ep. Virdunen.
+     1	Translatio Nicasii et Butropie sororis
+     1	Translatio Sabiniani
+     1	Translatio Sebastiani
+     1	Translatio Tiburtii, Marcellini et Petri, Marii et Marthe, Audifax et Abacuc
+     2	Translatio Trudonis et Eucharii
+     1	Translatio Vale
+     1	Translatio Veremundi
+     1	Translatio capitis
+     1	Translatio capitis Romam
+     1	Translatio duorum capitum
+     1	Translatio in Cluniacum
+     1	Translatio in monast. Rivipollen.
+     4	Translatio reliquiarum
+     1	Translatio reliquiarum Regine, Juliane, Cordule
+     1	Tricesimus
+     1	Triumphus de Steplea
+     1	Val. ep. cf.
+     1	Vesontinen. ab invasione hereticorum
+     9	Victoria
+    30	Vigilia
+     1	Vigilia vigilie
+     1	Wegen Thome de Aquino verschoben auf
+     1	[Translatio, D.)
+     1	abb. Spoletani
+   184	erem.
+
+
+
+
+ERRORS:
+
+Rufi et Valerii (Rufini et Valeriani) m. (auch in umgekehrter Folge) Juni 14: Bremen (Valeriani), Hamburg, Paderborn, Utrecht. - Amiens (V. et Justini statt Rufini), Cambrai, Noyon (Rufini et Valeriani), Paris, Senlis (Rufini et Valerii), *Soissons (Rufini et Valerii), Tournai. - Prämonstratenser. || Juni 13 (wegen Aniani): Mans (Valeriani).                                                
+Rufi ep. Meten, cf. August 27: Metz (neben Rufi m. August 27). || November 7: Metz. || Rufi et Agatimbri ep. Meten. Mai 11: Metz.
+
+This is two lines in one in online grotefend

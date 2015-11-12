@@ -8,8 +8,8 @@ outfile = File.expand_path('../../junk.xlsx', __FILE__)
 months = 'Apr\b|April|Aug\b|August\b|December|Februar|Januar\b|Jul\b|Juli\b|Juni\b|Mai\b|März|November|Oct\b|October|September|Sept\b'
 month_re = /(#{months})/
 
-ord_date_re  = /(\d{1,2})\.\s+(#{months})/
-card_date_re = /(#{months})\s+(\d{1,2})/
+ord_date_re  = /(\d{1,2})\.\s+((#{months})\.?)/
+card_date_re = /((#{months})\.?)\s+(\d{1,2})/
 
 def month_number month
   case month
@@ -55,7 +55,8 @@ wb.add_worksheet name: 'feasts' do |wksh|
       next
     end
 
-    line.strip.scan(card_date_re).each do |date|
+    line.strip.scan(card_date_re).each do |date3|
+      date = [ date3.first, date3.last ]
       month                      = month_number date.first
       row                        = []
       row[header.index 'Month']  = month
@@ -67,7 +68,8 @@ wb.add_worksheet name: 'feasts' do |wksh|
       row[header.index 'Line']   = line
       wksh.add_row row
     end
-    line.strip.scan(ord_date_re).each do |date|
+    line.strip.scan(ord_date_re).each do |date3|
+      date = [ date3.first, date3.last ]
       month                      = month_number date.last
       row                        = []
       row[header.index 'Month']  = month

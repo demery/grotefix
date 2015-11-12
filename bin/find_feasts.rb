@@ -9,6 +9,7 @@ date_re = /(Apr\.|April|Aug|August|August\.|December|Februar|Januar|Jul\.|Juli|J
 class Feast
 
   SAINT_ABBREVIATIONS = %w(
+    8a
     b.
     abb.
     aep.
@@ -48,23 +49,147 @@ class Feast
     sc.
     soc.
     solit.
+    v.
   )
 
-
-  ABBREV_PATTERNS = ([ '\\b8a\\b' ] + SAINT_ABBREVIATIONS.map { |s| "\\b#{Regexp.escape(s)}" }).join '|'
+  ABBREV_PATTERNS = SAINT_ABBREVIATIONS.map { |s|
+    s =~ /\.$/ ? "\\b#{Regexp.escape s}" : "\\b#{s}\\b"
+  }.join '|'
 
   MONTHS = %w(
-
+    Apr.
+    April
+    Aug
+    August
+    August.
+    December
+    Februar
+    Januar
+    Jul.
+    Juli
+    Juli.
+    Juni
+    Juni.
+    Mai
+    März
+    November
+    Oct
+    October
+    Sept
+    September
   )
 
-  MONTH_RE = "Apr\.|April\b|Aug\b|August\b|August\.|December\b|Februar\b|Januar\b|Jul\.|Juli\b|Juli\.|Juni\b|Juni\.|Mai\b|März\b|November\b|Oct\b|October\b"
+  MONTHS_PATTERN = MONTHS.map { |month|
+    month =~ /\.$/ ? "\\b#{Regexp.escape month}" : "\\b#{month}\\b"
+  }.join '|'
+
+  CARDINAL_DATES_PATTERN = MONTHS.map { |month|
+    "\\b#{Regexp.escape month}\\s+\\d{1,2}"
+  }.join '|'
+
+  CARDINAL_DATES_RE = /#{CARDINAL_DATES_PATTERN}/
+
+  ORDINAL_DATES_PATTERN = MONTHS.map { |month|
+    "\\d{1,2}\\.\\s+#{Regexp.escape month}"
+  }.join '|'
+
+  ORDINAL_DATES_RE = /#{ORDINAL_DATES_PATTERN}/
+
+  MONTHS_RE = /#{MONTHS_PATTERN}/
+
+  PUNCTS_PATTERN = "[-.:(),|+*;!'?=&\\[\\]]"
+
+  PUNCTS_RE = /#{PUNCTS_PATTERN}/
+
+  # Source abbreviations
+  # A. - L'Art de verifier les Dates.
+  #
+  # A. S. - Acta Sanctorum Bollandiana.
+  #
+  # A. S. H. - Acta Sanctorum Hiberniae.
+  #
+  # D. - Dupont, Liste générale des Saints (Annuaire historique publié par la Société d'Histoire de France 1857, 1858, 1860).
+  #
+  # E. - Ebner, Quellen zur Geschichte des Missale Romanum. Iter italicum (Freiburg, 1896).
+  #
+  # G. - Gams, Series episcoporum (Regensburg, 1873).
+  #
+  # H. - Hampson, medii aevi kalendarium (London 1841).
+  #
+  # M. - Cte de Mas Latrie, Tresor de la Chronologie (Paris 1889).
+  #
+  # Mab. - Mabillon, acta sanctorum ord. s. Benedicti.
+  #
+  # P. - Pilgram, Calendarium chronologicum (Wien 1781).
+  #
+  # R. D. - Reinsberg-Düringsfeld, Calendrier Belge (Brüssel 1861) oder Festkalender aus Böhmen (Prag 1862).
+  #
+  # S. - Surius, de probatis sanctorum historiis.
+  #
+  # W. - Warren, the liturgy of the Celtic Church (1881)
+  #
+
+  SOURCES = [
+             'A. S. H.',
+             'A. S.',
+             'A.S.H.',
+             'A.S.',
+             'R. D.',
+             'R.D.',
+             'A.',
+             'D.',
+             'E.',
+             'G.',
+             'H.',
+             'M.',
+             'Mab.',
+             'P.',
+             'S.',
+             'W.'
+            ]
+
+  SOURCE_PATTERNS = SOURCES.map { |source|
+    "\\b#{Regexp.escape source}"
+  }.join '|'
+
+  SOURCE_RE = /#{SOURCE_PATTERNS}/
+
+  ALT_SOURCE_LOCALE_PATTERN = "\\[[^\\]]+\\]"
+
+  ALT_SOURCE_LOCALE_RE = /#{ALT_SOURCE_LOCALE_PATTERN}/
+
+  DEATH_PATTERN = "\\(\\+[^)]+\\d+[^)\|]\\)"
+
+  DEATH_RE = /#{DEATH_PATTERN}/
+
+  SUBSECTION_PATTERN = "\\|\\|"
+
+  AND_PATTERN = "\\bet\\b"
+
+  AND_RE = /#{AND_PATTERN}/
+
+  SUBSECTION_RE = /#{SUBSECTION_PATTERN}/
+
+  NAME_PATTERN = "[[:upper:]][[:alpha:]]+"
+
+  NAME_RE = /#{NAME_PATTERN}/
+
+  DITTO_PATTERN = "^- "
+
+  DITTO_RE = /#{DITTO_PATTERN}/
 
   def lex_line line
-    line.strip.scan(/#{ABBREV_PATTERNS}|/).chunk do |x|
+    line.strip.scan(/#{DITTO_RE}|#{DEATH_PATTERN}|#{ALT_SOURCE_LOCALE_PATTERN}|#{ABBREV_PATTERNS}|#{CARDINAL_DATES_PATTERN}|#{ORDINAL_DATES_PATTERN}|#{SOURCE_PATTERNS}|#{AND_PATTERN}|#{NAME_PATTERN}|[[:alpha:]]+|[[:digit:]]+|#{SUBSECTION_PATTERN}|#{PUNCTS_PATTERN}/).chunk do |x|
 
-    # line.strip.scan(/#{ABBREV_PATTERNS}|[[:digit:]]+|[[:alpha:]]+|[-.:)(,|+*;!'?=&\[\]]/).chunk do |x|
       case x
-      when MONTH_RE            then :month
+      when DITTO_RE then :ditto
+      when DEATH_RE then :death
+      when ORDINAL_DATES_RE then :ordinal_date
+      when CARDINAL_DATES_RE then :cardinal_date
+      when ALT_SOURCE_LOCALE_RE then :alt_source_locale
+      when SOURCE_RE then :source
+      when AND_RE then :and
+      when SUBSECTION_RE then :subsection
       when /\d+/               then :number
       when /\b8a\b/            then :octave
       when /\bb\./             then :blessed
@@ -110,6 +235,9 @@ class Feast
       when /\bv\./             then :virgin_or_venerable
         # virgin after names, but venerable when before a name
       when /\bvid\./           then :widow
+      when NAME_RE then :name
+      when /[[:alpha:]]+/       then :word
+      when /[[:digit:]]+/ then :number
       when /-/                 then :dash
       when /\./                then :dot
       when /:/                 then :colon
@@ -127,8 +255,6 @@ class Feast
       when /&/                 then :ampersan
       when /\[/                then :open_bracket
       when /\]/                then :close_bracket
-      when /[[:alpha:]]/       then :word
-
       end
     end
   end
@@ -137,7 +263,7 @@ end
 count = 0
 feast = Feast.new
 ARGF.each_line do |line|
-  puts feast.lex_line(line).to_a.pretty_inspect
-  break if count > 10
+  puts feast.lex_line(line).to_a.inspect
+  break if count > 40
   count += 1
 end
